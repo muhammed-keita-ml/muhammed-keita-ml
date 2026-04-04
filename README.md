@@ -39,7 +39,8 @@ real world, not just in notebooks.
 
 - 🎓 IBM Data Science Professional Certificate — completed 2026
 - 🎓 Anthropic Introduction to Claude API — Completed March 2026
-- 🔨 Building Project 04 — End-to-end ML pipeline
+- 🎓 Anthropic Introduction to Model Context Protocol — Completed March 2026
+- 🔨 Building Project 05 — MLOps Deployment
 - 📝 Writing on Medium about ML Engineering
 - 💼 Open to junior ML Engineer, MLOps, and Data Engineer roles
 
