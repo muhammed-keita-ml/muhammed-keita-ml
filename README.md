@@ -19,7 +19,7 @@ real world, not just in notebooks.
 | 01 | [Automated File Organizer](https://github.com/muhammed-keita-ml/01-file-organizer-automation) | Python · os · shutil · json | ✅ Live |
 | 02 | [CSV Data Processing Pipeline](https://github.com/muhammed-keita-ml/02-csv-data-processor) | Python · Pandas · NumPy · MLflow | ✅ Live |
 | 03 | [Modular CLI Productivity Tool](https://github.com/muhammed-keita-ml/03-cli-productivity-tool) | Python · CLI · Modular Architecture | ✅ Live |
-| 04 | End-to-End ML Pipeline | scikit-learn · Python · MLflow | 🔄 Coming soon |
+| 04 | [Heart Disease ML Pipeline](https://github.com/muhammed-keita-ml/project-04-heart-disease-pipeline) | Random Forest, MLflow, Gradio | ROC-AUC: 0.921, Recall: 0.92 | [Live Demo](https://huggingface.co/spaces/muhammed-keita-ml/heart-disease-predictor) |
 | 05 | MLOps Deployment | Docker · FastAPI · CI/CD | 🔄 Coming soon |
 
 ---
