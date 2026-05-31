@@ -9,7 +9,7 @@ Domain focus: FinTech and financial services — where model failure has a measu
 
 | # | Project | Stack | Status |
 |---|---------|-------|--------|
-| 05 | [Production ML Monitoring API](https://github.com/muhammed-keita-ml/project-05-ml-monitoring-api) | FastAPI · Docker · GitHub Actions · pytest · pandas | ✅ Live |
+| 05 | [Production ML Monitoring API](https://github.com/muhammed-keita-ml/project-05-heart-disease-api) | FastAPI · Docker · GitHub Actions · pytest · pandas | ✅ Live |
 | 04 | [Heart Disease Risk Pipeline](https://github.com/muhammed-keita-ml/project-04-heart-disease-pipeline) | scikit-learn · MLflow · DagsHub · Hugging Face · GitHub Actions | ✅ Live |
 | 03 | [Modular CLI Productivity Tool](https://github.com/muhammed-keita-ml/03-cli-productivity-tool) | Python · Modular Architecture | ✅ Live |
 | 02 | [CSV Data Processing Pipeline](https://github.com/muhammed-keita-ml/02-csv-data-processor) | Python · pandas · NumPy · MLflow | ✅ Live |
