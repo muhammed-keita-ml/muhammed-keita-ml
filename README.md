@@ -1,7 +1,8 @@
 ## Muhammed Keita — ML Systems Engineer
 
-I build production ML systems with an emphasis on reliability after deployment.
-Domain focus: FinTech and financial services — where model failure has a measurable cost.
+I build production ML systems with an emphasis on reliability after
+deployment. Domain focus: FinTech and financial services — where model
+failure has a measurable cost.
 
 ---
 
@@ -9,12 +10,27 @@ Domain focus: FinTech and financial services — where model failure has a measu
 
 | # | Project | Stack | Status |
 |---|---------|-------|--------|
+| 07 | [Cloud-Native Fraud Detection API](https://github.com/muhammed-keita-ml/project-07-fraud-detection-k8s) | FastAPI · Docker · AWS ECR · AWS EC2 · GitHub Actions · Kubernetes · MLflow | ✅ Live |
+| 06 | [Credit Card Fraud Detection Pipeline](https://github.com/muhammed-keita-ml/project-06-fraud-detection-pipeline) | XGBoost · scikit-learn · imbalanced-learn · MLflow · DagsHub · Gradio | ✅ Live |
 | 05 | [Production ML Monitoring API](https://github.com/muhammed-keita-ml/project-05-heart-disease-api) | FastAPI · Docker · GitHub Actions · pytest · pandas | ✅ Live |
 | 04 | [Heart Disease Risk Pipeline](https://github.com/muhammed-keita-ml/project-04-heart-disease-pipeline) | scikit-learn · MLflow · DagsHub · Hugging Face · GitHub Actions | ✅ Live |
-| 03 | [Modular CLI Productivity Tool](https://github.com/muhammed-keita-ml/03-cli-productivity-tool) | Python · Modular Architecture | ✅ Live |
-| 02 | [CSV Data Processing Pipeline](https://github.com/muhammed-keita-ml/02-csv-data-processor) | Python · pandas · NumPy · MLflow | ✅ Live |
-| 01 | [Automated File Organizer](https://github.com/muhammed-keita-ml/01-file-organizer-automation) | Python · os · shutil · json | ✅ Live |
-| 06 | Credit Card Fraud Detection Pipeline | scikit-learn · imbalanced-learn · MLflow · FastAPI | 🔄 In progress |
+| 03 | [Modular CLI Productivity Tool](https://github.com/muhammed-keita-ml/03-cli-productivity-tool) | Python · Modular Architecture | ✅ Complete |
+| 02 | [CSV Data Processing Pipeline](https://github.com/muhammed-keita-ml/02-csv-data-processor) | Python · pandas · NumPy · MLflow | ✅ Complete |
+| 01 | [Automated File Organizer](https://github.com/muhammed-keita-ml/01-file-organizer-automation) | Python · os · shutil · json | ✅ Complete |
+| 08 | Financial Risk Intelligence Platform (FRIP) | Multi-model · fraud + credit scoring + monitoring | 🔄 Planned |
+
+---
+
+## Key results
+
+| Project | Metric | Value |
+|---|---|---|
+| Project 07 | Live AWS EC2 deployment | 108.128.140.230:8000/docs |
+| Project 06 | PR-AUC (XGBoost + class weighting) | 0.880 |
+| Project 06 | Recall@P90 | 0.837 |
+| Project 06 | Configs with Recall@P90 = 0 despite okay F1 | 6 of 13 |
+| Project 04 | AUC (Random Forest) | 0.921 |
+| Project 04 | Recall | 0.922 |
 
 ---
 
@@ -22,22 +38,25 @@ Domain focus: FinTech and financial services — where model failure has a measu
 
 My production work surfaces questions that belong in the literature:
 
-- When does statistical drift detection fail to predict actual model performance degradation?
-- How do SMOTE variants interact with temporal validation in production fraud detection?
-- What monitoring architectures are appropriate for low-latency financial classification systems?
+- When does statistical drift detection fail to predict actual model
+  performance degradation?
+- How do SMOTE variants interact with temporal validation in production
+  fraud detection?
+- Why do standard metrics (F1, accuracy) hide operationally unusable
+  models under extreme class imbalance — and what should replace them?
 
-These questions drive how I structure projects — explicit hypotheses, systematic benchmarks, reproducible experiment tracking.
-
-**Current focus:** Concept drift × class imbalance × model degradation in real-time fraud detection systems.
+**Current focus:** Concept drift × class imbalance × model degradation
+in real-time fraud detection systems. Project 06 is the first systematic
+empirical step toward answering this.
 
 ---
 
 ## Stack
-ML/MLOps:    scikit-learn · MLflow · DagsHub · Hugging Face · imbalanced-learn
+ML/MLOps:    XGBoost · scikit-learn · imbalanced-learn · MLflow · DagsHub
 Serving:     FastAPI · Docker · Hugging Face Spaces
-DevOps:      GitHub Actions · pytest · Docker Compose
-Cloud:       GCP (Professional ML Engineer certified)
-Tracking:    MLflow · DagsHub
+Cloud:       AWS EC2 · AWS ECR · GCP (Professional ML Engineer certified)
+DevOps:      GitHub Actions · pytest · Kubernetes
+Tracking:    MLflow Model Registry · DagsHub
 Language:    Python
 
 ---
@@ -51,16 +70,17 @@ Language:    Python
 | Machine Learning Specialization | DeepLearning.AI / Andrew Ng |
 | IBM DevOps and Software Engineering Professional | IBM |
 | IBM Data Science Professional | IBM |
-| Introduction to Claude API | Anthropic |
 | Introduction to Model Context Protocol | Anthropic |
+| Building with Claude API | Anthropic |
 
 ---
 
 ## Now
 
-- Building Project 06 — Credit Card Fraud Detection Pipeline (FinTech research focus)
-- Writing on Medium about production ML and financial ML systems
-- Open to remote ML Engineer, MLOps Engineer, and ML Platform Engineer roles — UK · Netherlands · Germany · Canada · US
+- Building Project 08 — Financial Risk Intelligence Platform (FRIP):
+  fraud detection + credit scoring + monitoring as one multi-model platform
+- Open to remote ML Engineer, MLOps Engineer, ML Platform Engineer roles
+  — UK · Netherlands · Germany · Canada · US
 
 ---
 
