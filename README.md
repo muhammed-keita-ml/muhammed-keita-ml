@@ -88,6 +88,7 @@ Language:    Python
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammed-keita)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/muhammed-keita-ml/ml-engineering-portfolio)
+[![Contra](https://img.shields.io/badge/Contra-000000?style=flat&logo=contra&logoColor=white)](https://contra.com/s/WOrQcANm-production-ml-readiness-audit)
 [![DagsHub](https://img.shields.io/badge/DagsHub-FF4F00?style=flat&logo=dagshub&logoColor=white)](https://dagshub.com/muhammed-keita-ml)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@mkeitaone)
 
